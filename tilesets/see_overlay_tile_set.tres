@@ -1,0 +1,33 @@
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://ce78j47l8ccln"]
+
+[ext_resource type="Texture2D" uid="uid://b2id67xfdsldc" path="res://map_sprites/DUCursors.png" id="1_v7p71"]
+[ext_resource type="Texture2D" uid="uid://nbqb7b573kb4" path="res://map_sprites/vikings_cursors.png" id="2_n2iay"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xt7in"]
+texture = ExtResource("1_v7p71")
+margins = Vector2i(5, 5)
+separation = Vector2i(10, 10)
+texture_region_size = Vector2i(128, 96)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ilsgf"]
+texture = ExtResource("2_n2iay")
+margins = Vector2i(5, 6)
+separation = Vector2i(10, 0)
+texture_region_size = Vector2i(128, 145)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 24)
+1:0/0 = 0
+1:0/0/texture_origin = Vector2i(0, 24)
+
+[resource]
+tile_shape = 3
+tile_layout = 5
+tile_size = Vector2i(128, 96)
+sources/0 = SubResource("TileSetAtlasSource_xt7in")
+sources/1 = SubResource("TileSetAtlasSource_ilsgf")

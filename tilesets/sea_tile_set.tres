@@ -1,0 +1,14 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://do5mw4ndflhr2"]
+
+[ext_resource type="Texture2D" uid="uid://ds0lk6vewa45a" path="res://map_sprites/HexUpSurfaceWater.png" id="1_o2xv7"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jtwpf"]
+texture = ExtResource("1_o2xv7")
+texture_region_size = Vector2i(128, 96)
+0:0/0 = 0
+
+[resource]
+tile_shape = 3
+tile_layout = 5
+tile_size = Vector2i(128, 96)
+sources/0 = SubResource("TileSetAtlasSource_jtwpf")

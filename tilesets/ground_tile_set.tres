@@ -1,0 +1,32 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bi4iojw2ge2qq"]
+
+[ext_resource type="Texture2D" uid="uid://cjrp8gahgbyg4" path="res://map_sprites/DUTiles.png" id="1_4qq58"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xwb5l"]
+texture = ExtResource("1_4qq58")
+margins = Vector2i(5, 6)
+separation = Vector2i(10, 12)
+texture_region_size = Vector2i(128, 112)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -8)
+0:0/0/y_sort_origin = 16
+1:0/0 = 0
+1:0/0/texture_origin = Vector2i(0, -8)
+1:0/0/y_sort_origin = 16
+2:0/0 = 0
+2:0/0/texture_origin = Vector2i(0, -8)
+2:0/0/y_sort_origin = 16
+0:1/0 = 0
+0:1/0/texture_origin = Vector2i(0, -8)
+0:1/0/y_sort_origin = 16
+1:1/0 = 0
+1:1/0/texture_origin = Vector2i(0, -8)
+1:1/0/y_sort_origin = 16
+2:1/0 = 0
+2:1/0/texture_origin = Vector2i(0, -8)
+
+[resource]
+tile_shape = 3
+tile_layout = 5
+tile_size = Vector2i(128, 96)
+sources/0 = SubResource("TileSetAtlasSource_xwb5l")

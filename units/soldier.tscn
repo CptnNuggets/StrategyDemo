@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ffp7jurtvk0l"]
+
+[ext_resource type="Texture2D" uid="uid://cm3u8mxprjqe0" path="res://units/sprites/VikingBlue.png" id="1_m6nsy"]
+
+[node name="Soldier" type="Sprite2D"]
+texture = ExtResource("1_m6nsy")
